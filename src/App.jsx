@@ -30,7 +30,7 @@ const router = createBrowserRouter(
       ],
     },
   ],
-  { basename }  // Add this options object
+  { basename } 
 );
 
 export default function App() {
