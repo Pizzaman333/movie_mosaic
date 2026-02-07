@@ -1,0 +1,62 @@
+@import "../variables";
+
+.appContainer {
+  background: $dark-bg;
+}
+
+.header {
+  padding: 25px;
+  background-color: darken($dark-bg, 8%);
+  border-bottom: 2px solid $primary-blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  .siteTitle {
+    margin: 0;
+    font-size: 2rem;
+    color: $accent-sand;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    background: $gradient-bg;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1.5px;
+  }
+
+  nav {
+    display: flex;
+    gap: 30px;
+    font-size: 1.3rem;
+
+    a {
+      color: $text-light;
+      text-decoration: none;
+      font-weight: bold;
+      padding-bottom: 10px;
+      transition: color 0.2s ease;
+
+      &.active {
+        color: $secondary-green;
+        border-bottom: 3px solid $secondary-green;
+      }
+
+      &:hover {
+        color: $accent-sand;
+      }
+    }
+  }
+}
+
+.loading {
+  color: $primary-blue;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 60px;
+  background: $gradient-bg;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

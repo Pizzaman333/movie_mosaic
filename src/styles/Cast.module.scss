@@ -1,0 +1,35 @@
+// Cast.module.scss
+@import "../variables.scss";
+
+.castList {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.castItem {
+  background-color: lighten($dark-bg, 8%);
+  border-radius: 12px;
+  padding: 15px;
+  @include card-shadow;
+  @include hover-effect;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: lighten($dark-bg, 12%);
+  }
+}
+
+.castName {
+  color: $secondary-green;
+  font-size: 1.2rem;
+  display: block;
+}
+
+.castCharacter {
+  color: $text-light;
+  font-style: italic;
+}
