@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/movie_mosaic/static/css/main.7bfb40a7.css",
-    "main.js": "/movie_mosaic/static/js/main.d81a82a6.js",
+    "main.js": "/movie_mosaic/static/js/main.85974e76.js",
     "static/css/417.3716c0a6.chunk.css": "/movie_mosaic/static/css/417.3716c0a6.chunk.css",
     "static/js/417.d327ae92.chunk.js": "/movie_mosaic/static/js/417.d327ae92.chunk.js",
     "static/css/251.3bd1a4e3.chunk.css": "/movie_mosaic/static/css/251.3bd1a4e3.chunk.css",
@@ -14,9 +14,10 @@
     "static/js/601.eb97f818.chunk.js": "/movie_mosaic/static/js/601.eb97f818.chunk.js",
     "static/css/623.8e73ad40.chunk.css": "/movie_mosaic/static/css/623.8e73ad40.chunk.css",
     "static/js/623.e98fe5b9.chunk.js": "/movie_mosaic/static/js/623.e98fe5b9.chunk.js",
+    "static/js/44.0ba5318e.chunk.js": "/movie_mosaic/static/js/44.0ba5318e.chunk.js",
     "index.html": "/movie_mosaic/index.html",
     "main.7bfb40a7.css.map": "/movie_mosaic/static/css/main.7bfb40a7.css.map",
-    "main.d81a82a6.js.map": "/movie_mosaic/static/js/main.d81a82a6.js.map",
+    "main.85974e76.js.map": "/movie_mosaic/static/js/main.85974e76.js.map",
     "417.3716c0a6.chunk.css.map": "/movie_mosaic/static/css/417.3716c0a6.chunk.css.map",
     "417.d327ae92.chunk.js.map": "/movie_mosaic/static/js/417.d327ae92.chunk.js.map",
     "251.3bd1a4e3.chunk.css.map": "/movie_mosaic/static/css/251.3bd1a4e3.chunk.css.map",
@@ -28,10 +29,11 @@
     "601.bfadb1e3.chunk.css.map": "/movie_mosaic/static/css/601.bfadb1e3.chunk.css.map",
     "601.eb97f818.chunk.js.map": "/movie_mosaic/static/js/601.eb97f818.chunk.js.map",
     "623.8e73ad40.chunk.css.map": "/movie_mosaic/static/css/623.8e73ad40.chunk.css.map",
-    "623.e98fe5b9.chunk.js.map": "/movie_mosaic/static/js/623.e98fe5b9.chunk.js.map"
+    "623.e98fe5b9.chunk.js.map": "/movie_mosaic/static/js/623.e98fe5b9.chunk.js.map",
+    "44.0ba5318e.chunk.js.map": "/movie_mosaic/static/js/44.0ba5318e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7bfb40a7.css",
-    "static/js/main.d81a82a6.js"
+    "static/js/main.85974e76.js"
   ]
 }
